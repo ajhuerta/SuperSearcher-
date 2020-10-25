@@ -20,7 +20,7 @@
    <widget class="QLabel" name="superSearcher">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>240</x>
       <y>160</y>
       <width>331</width>
       <height>71</height>
@@ -51,88 +51,6 @@ color: rgb(255, 114, 0);</string>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonB">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>335</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-            font : 24px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="text">
-     <string>Bing</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonD">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>335</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-            font : 24px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="text">
-     <string>DuckDuckGo</string>
-    </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
-    <property name="checked">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonGS">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>335</y>
-      <width>151</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-			visibility : hidden;
-            font : 24px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>Google Scholar</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="queryInput">
@@ -170,85 +88,6 @@ color: rgb(255, 114, 0);</string>
     </property>
     <property name="text">
      <string>Search</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonG">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>335</y>
-      <width>91</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-            font : 24px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="text">
-     <string>Google</string>
-    </property>
-    <property name="checked">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="coverUp1">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>340</y>
-      <width>16</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="coverUp2">
-    <property name="geometry">
-     <rect>
-      <x>276</x>
-      <y>340</y>
-      <width>20</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="coverUp3">
-    <property name="geometry">
-     <rect>
-      <x>436</x>
-      <y>340</y>
-      <width>20</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="coverUp4">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>340</y>
-      <width>16</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="settings">
@@ -301,113 +140,6 @@ QRadioButton::checked
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="coverUp1_3">
-    <property name="geometry">
-     <rect>
-      <x>456</x>
-      <y>470</y>
-      <width>21</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="coverUp1_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>470</y>
-      <width>16</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonNet">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>460</y>
-      <width>91</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-			visibility : hidden;
-            font : 32px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>.net</string>
-    </property>
-    <property name="checked">
-     <bool>true</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="coverUp1_5">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>470</y>
-      <width>16</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonEdu">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>460</y>
-      <width>91</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-			visibility : hidden;
-            font : 32px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>.edu</string>
-    </property>
-    <property name="checked">
-     <bool>true</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="QGroupBox" name="historySection">
     <property name="enabled">
      <bool>true</bool>
@@ -429,7 +161,7 @@ QRadioButton::checked
     <property name="flat">
      <bool>false</bool>
     </property>
-    <widget class="QRadioButton" name="radioButton">
+    <widget class="QRadioButton" name="radioYes">
      <property name="geometry">
       <rect>
        <x>190</x>
@@ -457,7 +189,7 @@ QRadioButton::checked
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QRadioButton" name="radioButton_7">
+    <widget class="QRadioButton" name="radioNo">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -562,8 +294,8 @@ color: rgb(255, 114, 0);</string>
      </property>
     </widget>
     <zorder>superSearcher_4</zorder>
-    <zorder>radioButton</zorder>
-    <zorder>radioButton_7</zorder>
+    <zorder>radioYes</zorder>
+    <zorder>radioNo</zorder>
     <zorder>coverUp1_6</zorder>
     <zorder>coverUp1_7</zorder>
     <zorder>pushButton_2</zorder>
@@ -818,80 +550,12 @@ QRadioButton::checked
     <zorder>coverUp1_12</zorder>
     <zorder>coverUp1_11</zorder>
    </widget>
-   <widget class="QRadioButton" name="radioButtonGov">
-    <property name="geometry">
-     <rect>
-      <x>600</x>
-      <y>460</y>
-      <width>71</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-			visibility : hidden;
-            font : 32px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>.gov</string>
-    </property>
-    <property name="checked">
-     <bool>true</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButtonCom">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>460</y>
-      <width>91</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-			visibility : hidden;
-            font : 32px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>.com</string>
-    </property>
-    <property name="checked">
-     <bool>true</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="superSearcher_5">
     <property name="geometry">
      <rect>
       <x>90</x>
       <y>450</y>
-      <width>641</width>
+      <width>631</width>
       <height>71</height>
      </rect>
     </property>
@@ -922,40 +586,6 @@ color: rgb(255, 114, 0);</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButtonOrg">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>460</y>
-      <width>91</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QRadioButton
-            {
-			visibility : hidden;
-            font : 32px 'Bebas Neue';
-            color : rgb(64, 68, 72);
-            }
-QRadioButton::checked
-            {
-            color : rgb(255, 114, 0);
-            }</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>.org</string>
-    </property>
-    <property name="checked">
-     <bool>true</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -972,30 +602,440 @@ QRadioButton::checked
      <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="errorText">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font : 24px 'Bebas Neue';
+color : rgb(255, 114, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>471</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="radioButtonB">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>20</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+            font : 24px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="text">
+      <string>Bing</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonD">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+            font : 24px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="text">
+      <string>DuckDuckGo</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonG">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+            font : 24px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="text">
+      <string>Google</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonGS">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+			visibility : hidden;
+            font : 24px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="text">
+      <string>Google Scholar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp1">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>20</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>20</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp3">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>30</y>
+       <width>20</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>radioButtonB</zorder>
+    <zorder>radioButtonD</zorder>
+    <zorder>radioButtonGS</zorder>
+    <zorder>radioButtonG</zorder>
+    <zorder>coverUp1</zorder>
+    <zorder>coverUp2</zorder>
+    <zorder>coverUp3</zorder>
+    <zorder>coverUp4</zorder>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>460</y>
+      <width>391</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="radioButtonOrg">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>0</y>
+       <width>91</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+			visibility : hidden;
+            font : 32px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="text">
+      <string>.org</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonGov">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>0</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+			visibility : hidden;
+            font : 32px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="text">
+      <string>.gov</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonCom">
+     <property name="geometry">
+      <rect>
+       <x>-20</x>
+       <y>0</y>
+       <width>91</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+			visibility : hidden;
+            font : 32px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="text">
+      <string>.com</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonEdu">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>0</y>
+       <width>91</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+			visibility : hidden;
+            font : 32px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="text">
+      <string>.edu</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonNet">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>0</y>
+       <width>101</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+            {
+			visibility : hidden;
+            font : 32px 'Bebas Neue';
+            color : rgb(64, 68, 72);
+            }
+QRadioButton::checked
+            {
+            color : rgb(255, 114, 0);
+            }</string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhNone</set>
+     </property>
+     <property name="text">
+      <string>.net</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp1_3">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>0</y>
+       <width>21</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp1_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="coverUp1_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>0</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>coverUp1_3</zorder>
+    <zorder>coverUp1_5</zorder>
+    <zorder>coverUp1_2</zorder>
+    <zorder>radioButtonGov</zorder>
+    <zorder>radioButtonOrg</zorder>
+    <zorder>radioButtonNet</zorder>
+    <zorder>radioButtonEdu</zorder>
+    <zorder>radioButtonCom</zorder>
+   </widget>
    <zorder>superSearcher_5</zorder>
-   <zorder>radioButtonGov</zorder>
+   <zorder>widget</zorder>
    <zorder>superSearcher</zorder>
-   <zorder>radioButtonB</zorder>
-   <zorder>radioButtonD</zorder>
-   <zorder>radioButtonGS</zorder>
    <zorder>queryInput</zorder>
    <zorder>pushButton</zorder>
-   <zorder>radioButtonG</zorder>
-   <zorder>coverUp1</zorder>
-   <zorder>coverUp2</zorder>
-   <zorder>coverUp3</zorder>
-   <zorder>coverUp4</zorder>
    <zorder>settings</zorder>
    <zorder>darkMode</zorder>
-   <zorder>coverUp1_3</zorder>
-   <zorder>coverUp1_2</zorder>
    <zorder>historySection</zorder>
    <zorder>tabsSection</zorder>
-   <zorder>radioButtonOrg</zorder>
-   <zorder>radioButtonNet</zorder>
-   <zorder>radioButtonEdu</zorder>
-   <zorder>radioButtonCom</zorder>
-   <zorder>coverUp1_5</zorder>
+   <zorder>errorText</zorder>
+   <zorder>widget_2</zorder>
    <zorder>label</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
