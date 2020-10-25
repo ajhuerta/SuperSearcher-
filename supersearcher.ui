@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Super Searcher</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: #2c2f33</string>
@@ -173,7 +173,6 @@ color: rgb(255, 114, 0);</string>
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -201,7 +200,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -321,7 +319,6 @@ color: rgb(255, 114, 0);</string>
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 48px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -346,7 +343,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 48px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -371,7 +367,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 48px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -396,7 +391,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 48px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -460,7 +454,6 @@ color: rgb(255, 114, 0);</string>
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 48px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -721,7 +714,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 24px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -819,7 +811,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -853,7 +844,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -887,7 +877,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -921,7 +910,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
@@ -955,7 +943,6 @@ QRadioButton::checked
      <property name="styleSheet">
       <string notr="true">QRadioButton
             {
-			visibility : hidden;
             font : 32px 'Bebas Neue';
             color : rgb(64, 68, 72);
             }
